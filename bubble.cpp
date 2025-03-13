@@ -39,13 +39,7 @@ void bubbleSortArray(){
                 arr[j+1] = temp;
             }
         }
-        pass = pass + 1; // step 4
-    }while(pass <=n-1);  // step 5
-       
-
-}
-
-void display(){
+   void display(){
     cout << endl;
     cout << "=================================" << endl;
     cout << "Element Array yang telah tersusun" << endl;
@@ -62,4 +56,8 @@ int main (){
     input();
     bubbleSortArray();
     display();
+}     pass = pass + 1; // step 4
+    }while(pass <=n-1);  // step 5
+       
+
 }
